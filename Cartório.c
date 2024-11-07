@@ -128,7 +128,7 @@ int main ()
            printf("\t1 - Incluir usuário\n");
            printf("\t2 - Consultar usuário\n");
            printf("\t3 - Deletar usuário\n");
-           printf("\t4. Sair\n\n");
+           printf("\t4. Sair do sistema\n\n");
            printf("Opção:");
        
 	       printf("Esse softare é de uso livre somente para alunos Ebac\n");
@@ -153,7 +153,8 @@ int main ()
 		   	    break;
 		   	 
 		   	    case 4:
-		   	    sair();
+		   	    printf("Obrigado por utilizar o sistema!"\n);
+		   	    return 0;
 		   	    break;
 		   	 
 		   	    default: 
